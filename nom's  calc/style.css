@@ -34,6 +34,7 @@ body{
     margin-bottom: 20px;
 }
 
+
 #display{
     width: 100%;
     height: 80px;
@@ -47,6 +48,8 @@ body{
     outline: none;
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+
 
 .buttons{
     display: grid;
@@ -108,6 +111,16 @@ body{
 
 .zero{
     grid-column: span 2;
+}
+
+.brand{
+    font-family: cursive;
+    font-size: 1.9em;
+    font-weight:500;
+    color: #215;
+    position: absolute;
+    left: 289px;
+    top: 47px;
 }
 
 
